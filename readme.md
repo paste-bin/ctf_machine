@@ -47,3 +47,6 @@ My personal dot files include the following
     e scr.utf8 = true
     e cmd.stack = true
     e asm.pseudo = true
+    
+# TODO
+add volatility support
