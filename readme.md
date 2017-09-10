@@ -30,8 +30,9 @@ your box is now configured! :)
 see below for iterm profile configuration
 
 # Iterm profile config
-to enable auto load/ssh on terminal creation with iterm2, add the following line to your "send text at login" section of your profile in iterm
-```cd ~/vagrant/ctf_machine; ./startup_check.sh```
+to enable auto load/ssh on terminal creation with iterm2, add the following line to your "send text at login" section of your profile in iterm. Just simply replace the path with where your ctf_machine folder is located
+
+```cd <path to machine folder>; ./startup_check.sh```
 
 ## Configurations
 angr/rekall are in their own virtualenv. use ```source ~/tools/<name>/bin/activate``` before using these tools
