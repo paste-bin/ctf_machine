@@ -48,6 +48,15 @@ My personal dot files include the following
     e scr.utf8 = true
     e cmd.stack = true
     e asm.pseudo = true
+
+## 'hack' command
+This command lets you drop into the vagrant image from your current directory
+
+    alias hack /path/to/ctf_machine/hack.sh
+    cd /random/directory
+    hack
+Dropping current directory into ctf machine
+ubuntu@ubuntu-xenial ~/r/directory>
     
 # TODO
 add volatility support
